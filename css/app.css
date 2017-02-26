@@ -1,3 +1,1 @@
-body {
-  font-family: 'Montserrat', sans-serif;
-}
+body{font-family:'Montserrat', sans-serif}#header-container{background-color:#99c84a;color:#fff}#header-container h2{padding:5px 0;font-weight:800}.login{text-transform:uppercase;color:#fff;text-decoration:none;font-weight:600;letter-spacing:1px}.login:hover{text-decoration:none;color:#fefefe}#menu-container{background-color:#f7f7f9}.btn.btn-platzi{background-color:#99c84a;color:#fff}input.form-control:focus{border-color:#99c84a}

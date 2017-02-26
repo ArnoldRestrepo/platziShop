@@ -17,7 +17,7 @@ gulp.task('default',['css'], function() {
 gulp.task('css', function() {
     gulp.src("./scss/*.scss")
         .pipe(sass({
-          outputStyle: 'expanded'
+          outputStyle: 'compressed'
         }))
         .pipe(gulp.dest("./css"))
         .pipe(browserSync.stream());

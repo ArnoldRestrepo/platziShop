@@ -1,3 +1,52 @@
+/*
+* PlatziShop Styles
+*
+*/
+
+/* General Syle*/
 body{
 	font-family: 'Montserrat', sans-serif;
+}
+
+/* Variables */
+$verde: #99c84a;
+$blanco: #fff;
+$negro: #000;
+$gris: #f7f7f9;
+
+/* Header */
+#header-container{
+	background-color: #99c84a;
+	color: $blanco;
+
+	h2{
+		padding: 5px 0;
+		font-weight: 800;
+	}	
+}
+
+.login{
+	text-transform: uppercase;
+	color: $blanco;
+	text-decoration: none;
+	font-weight: 600;
+	letter-spacing: 1px;
+}
+.login:hover{
+	text-decoration: none;
+	color: #fefefe;
+}
+
+/* Menú */
+#menu-container{
+	background-color: $gris;
+}
+
+.btn.btn-platzi{
+	background-color: $verde;
+	color: $blanco;
+}
+
+input.form-control:focus{
+	border-color: $verde;
 }
