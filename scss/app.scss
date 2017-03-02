@@ -14,6 +14,7 @@ $verde: #99c84a;
 $blanco: #fff;
 $negro: #000;
 $gris: #f7f7f9;
+$azul: #1c3143;
 
 /* Header */
 #header-container, #info-container{
@@ -67,5 +68,19 @@ input.form-control:focus{
 		height: 288px;
 		margin: 0 auto;
 		margin-top: 2em; 
+	}
+}
+
+/* Footer */
+#footer-container{
+	background-color: $azul;
+	color: $blanco;
+	padding: 3rem 0;
+	h3{
+		font-size: 1.5rem;
+	}
+
+	.nav-link{
+		color: $blanco;
 	}
 }
