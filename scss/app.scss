@@ -6,6 +6,7 @@
 /* General Syle*/
 body{
 	font-family: 'Montserrat', sans-serif;
+	// overflow-x: hidden; 
 }
 
 /* Variables */
@@ -15,8 +16,8 @@ $negro: #000;
 $gris: #f7f7f9;
 
 /* Header */
-#header-container{
-	background-color: #99c84a;
+#header-container, #info-container{
+	background-color: $verde;
 	color: $blanco;
 
 	h2{
@@ -52,4 +53,19 @@ $gris: #f7f7f9;
 
 input.form-control:focus{
 	border-color: $verde;
+}
+#info-container h4 {
+  text-align: center;
+}
+
+/* Información */
+
+#info-container{
+	padding: 2rem 0;
+
+	img{
+		height: 288px;
+		margin: 0 auto;
+		margin-top: 2em; 
+	}
 }
