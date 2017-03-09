@@ -21,6 +21,7 @@ $form.submit(function(event) {
 	$formGroup.append(el);
 });
 
+/* Modal 
 function mostrarModal() {
   console.log()
   if (!JSON.parse(localStorage.noMostrarModal)) {
@@ -30,4 +31,17 @@ function mostrarModal() {
   $('#btnNoRegistrar').click((ev) => {
     localStorage.noMostrarModal = true
   })
-}
+}*/
+
+var $filtrosToggle = $('#filtros-toggle');
+
+$filtrosToggle.click(function(event){
+	event.preventDefault();
+	var $i = $filtrosToggle.find('i.fa');
+	var isDown = $i.hasClass('fa-chevron-down');
+	if (isDown) {
+	    $i.removeClass('fa-chevron-down').addClass('fa-chevron-up')
+	  } else {
+	    $i.removeClass('fa-chevron-up').addClass('fa-chevron-down')
+	  }
+});

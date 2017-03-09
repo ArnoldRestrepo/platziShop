@@ -83,6 +83,25 @@ input.form-control:focus{
 	content: ">";
 }
 
+/* Productos */
+
+/* Filtros */
+#filtros-container{
+	margin-bottom: 2rem;
+}
+#filtros-container .list-group-item-action.active{
+	background-color: $verde;
+	border-color: $verde;
+}
+
+#filtros-container .list-group{
+	margin-bottom: 10px;
+}
+
+.filtros-toggle{
+	margin-bottom: 10px;
+}
+
 /* Footer */
 #footer-container{
 	background-color: $azul;
