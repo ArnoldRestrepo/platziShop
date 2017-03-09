@@ -71,6 +71,18 @@ input.form-control:focus{
 	}
 }
 
+/* Breacrumbs */
+#breadcrumbs-container .breadcrumb{
+	background-color: $blanco;
+	&.breadcrumb-item.active{
+		color: $gris;
+	}
+}
+
+.breadcrumb-item+.breadcrumb-item::before{
+	content: ">";
+}
+
 /* Footer */
 #footer-container{
 	background-color: $azul;
