@@ -102,6 +102,22 @@ input.form-control:focus{
 	margin-bottom: 10px;
 }
 
+/* Listado-productos */
+.listado-productos img{
+	width: 100%;
+}
+
+/* Pagination */
+#paginator-container .page-item.active .page-link, .page-item.active .page-link:focus, .page-item.active .page-link:hover{
+	background-color: $verde;
+	border-color: $verde;
+	color: $blanco;
+}
+
+#paginator-container .page-item:not(.active):not(.disabled) .page-link{
+	color: $verde;
+}
+
 /* Footer */
 #footer-container{
 	background-color: $azul;

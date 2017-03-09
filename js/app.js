@@ -1,3 +1,5 @@
+// Formularios
+
 var $form 			= $("#suscribeForm"),
 	$formGroup 		= $form.find('.form-group'),
 	$formControl    = $formGroup.find('.form-control');
