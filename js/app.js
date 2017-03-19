@@ -47,3 +47,26 @@ $filtrosToggle.click(function(event){
 	    $i.removeClass('fa-chevron-up').addClass('fa-chevron-down')
 	  }
 });
+
+
+
+/* Calcular Producto */
+
+function comprarProducto(){
+	var precio 		= $("#carrito-container").find(".precio").html();
+	var cantidad 	= $("#carrito-container").find("input[type='number']").val();
+
+	precio = parseInt(precio);
+	cantidad = parseInt(cantidad);
+	var total = precio * cantidad;
+	var final 		= $("#carrito-container").find(".total").text("$ " + total);
+	return final;
+
+}
+
+$("#cambio").on('change', function(){
+	comprarProducto();
+});
+
+
+

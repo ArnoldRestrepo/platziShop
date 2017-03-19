@@ -59,6 +59,10 @@ input.form-control:focus{
   text-align: center;
 }
 
+.login{
+	color: #fff;
+}
+
 /* Información */
 
 #info-container{
@@ -118,6 +122,11 @@ input.form-control:focus{
 	color: $verde;
 }
 
+/* Carrito */
+#carrito-container{
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
 /* Footer */
 #footer-container{
 	background-color: $azul;
